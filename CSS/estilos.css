@@ -9,11 +9,22 @@ footer{
     /* height: auto; */
    }
 .bg-header{
-    background-image: url(../IMG/bg-header.jpg);
+    background-image: url(../IMG/bg-header2.jpg);
     background-position: center center;
     background-size: cover;
     height: 100vh;
 } 
 .margen{
     margin-right: 0.1px;
+}
+.posicion{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+@media (max-width: 576px){
+    .posicion{
+        top: 30%;
+    }
 }
